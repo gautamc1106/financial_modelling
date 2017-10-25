@@ -1,0 +1,28 @@
+strict digraph  {
+tsla;
+abb;
+ccgi;
+cmi;
+pcrfy;
+asys;
+cenx;
+ge;
+fslr;
+tsla -> fslr;
+tsla -> asys;
+tsla -> ccgi;
+abb -> tsla;
+ccgi -> tsla;
+pcrfy -> cenx;
+pcrfy -> tsla;
+asys -> cenx;
+asys -> ge;
+asys -> tsla;
+cenx -> pcrfy;
+cenx -> ge;
+cenx -> asys;
+cenx -> tsla;
+ge -> fslr;
+ge -> asys;
+fslr -> tsla;
+}

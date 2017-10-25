@@ -1,0 +1,37 @@
+strict digraph  {
+tsla [arrowsize=2.0];
+abb [arrowsize=2.0];
+ccgi [arrowsize=2.0];
+cmi [arrowsize=2.0];
+pcrfy [arrowsize=2.0];
+asys [arrowsize=2.0];
+cenx [arrowsize=2.0];
+ge [arrowsize=2.0];
+fslr [arrowsize=2.0];
+tsla -> fslr [arrowsize=2.0];
+tsla -> asys [arrowsize=2.0];
+tsla -> ccgi [arrowsize=2.0];
+abb -> tsla [arrowsize=2.0];
+ccgi -> tsla [arrowsize=2.0];
+pcrfy -> cenx [arrowsize=2.0];
+pcrfy -> tsla [arrowsize=2.0];
+asys -> cenx [arrowsize=2.0];
+asys -> ge [arrowsize=2.0];
+asys -> tsla [arrowsize=2.0];
+cenx -> pcrfy [arrowsize=2.0];
+cenx -> ge [arrowsize=2.0];
+cenx -> asys [arrowsize=2.0];
+cenx -> tsla [arrowsize=2.0];
+ge -> fslr [arrowsize=2.0];
+ge -> asys [arrowsize=2.0];
+fslr -> tsla [arrowsize=2.0];
+abb [color=orange, style=filled, fontsize=30];
+asys [color=orange, style=filled, fontsize=30];
+ccgi [color=orange, style=filled, fontsize=30];
+cenx [color=orange, style=filled, fontsize=30];
+cmi [color=orange, style=filled, fontsize=30];
+fslr [color=orange, style=filled, fontsize=30];
+ge [color=orange, style=filled, fontsize=30];
+pcrfy [color=orange, style=filled, fontsize=30];
+tsla [color=orange, style=filled, fontsize=30];
+}
